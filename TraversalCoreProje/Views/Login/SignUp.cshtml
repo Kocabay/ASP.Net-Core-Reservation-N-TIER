@@ -84,9 +84,11 @@
                             <input type="password" required asp-for="ConfirmPassword" />
                             <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                         </div>
+                        <div class="text-danger" asp-validation-summary="ModelOnly">
 
+                        </div>
                         <label class="container">
-                            Şartları Okudum <a href="#">Kabul Ediyorum.</a> <a href="#">Gizlilik Sözleşmesi</a>
+                            Şartları Okudum <a href="#">Kabul Ediyorum.</a> <a href="#">Gizlilik Sözleşmesi İçin Tıklayınız.</a>
                             <input type="checkbox" required>
                             <span class="checkmark"></span>
                         </label>
